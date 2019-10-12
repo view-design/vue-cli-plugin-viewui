@@ -1,11 +1,11 @@
 {
-  "name": "vue-cli-plugin-iview",
+  "name": "vue-cli-plugin-viewui",
   "version": "2.0.0",
-  "description": "vue-cli 3 plugin to add View UI(iView)",
+  "description": "vue-cli 3 plugin to add ViewUI(iView)",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/view-design/vue-cli-plugin-iview.git"
+    "url": "git+ssh://git@github.com/view-design/vue-cli-plugin-viewui.git"
   },
   "keywords": [
     "iview",
@@ -18,7 +18,7 @@
   "author": "Aresn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/view-design/vue-cli-plugin-iview/issues"
+    "url": "https://github.com/view-design/vue-cli-plugin-viewui/issues"
   },
-  "homepage": "https://github.com/view-design/vue-cli-plugin-iview#readme"
+  "homepage": "https://github.com/view-design/vue-cli-plugin-viewui#readme"
 }

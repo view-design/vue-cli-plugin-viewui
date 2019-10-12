@@ -1,19 +1,19 @@
 import Vue from 'vue'
 <%_ if (options.import === 'full') { _%>
-import iView from 'iview'
+import ViewUI from 'view-design'
 <%_ if (options.lang !== 'zh-CN') { _%>
-import locale from 'iview/dist/locale/<%= options.lang %>'
+import locale from 'view-design/dist/locale/<%= options.lang %>'
 
-Vue.use(iView, { locale })
+Vue.use(ViewUI, { locale })
 <%_ } else { _%>
 
-Vue.use(iView)
+Vue.use(ViewUI)
 <%_ } _%>
 <%_ } else { _%>
-import { Button } from 'iview'
+import { Button } from 'view-design'
 <%_ if (options.lang !== 'zh-CN') { _%>
-import lang from 'iview/dist/locale/<%= options.lang %>'
-import { locale } from 'iview'
+import lang from 'view-design/dist/locale/<%= options.lang %>'
+import { locale } from 'view-design'
 
 locale(lang)
 <%_ } _%>
@@ -24,5 +24,5 @@ Vue.component('Button', Button)
 <%_ if (options.customTheme) { _%>
 import '../iview-variables.less'
     <%_ } else { _%>
-import 'iview/dist/styles/iview.css'
+import 'view-design/dist/styles/iview.css'
     <%_ } _%>

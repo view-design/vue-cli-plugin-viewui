@@ -4,7 +4,7 @@ module.exports = [
   {
     type: 'list',
     name: 'import',
-    message: 'How do you want to import iView?',
+    message: 'How do you want to import ViewUI(iView)?',
     choices: [
       { name: 'Fully import', value: 'full' },
       { name: 'Import on demand', value: 'partial' }
@@ -15,7 +15,7 @@ module.exports = [
     when: answers => answers.import === 'full',
     type: 'confirm',
     name: 'customTheme',
-    message: 'Do you wish to overwrite iView\'s Less variables?',
+    message: 'Do you wish to overwrite ViewUI(iView)\'s Less variables?',
     default: false,
   },
   {

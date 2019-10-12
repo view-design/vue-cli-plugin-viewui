@@ -3,7 +3,7 @@ module.exports = (api, opts, rootOptions) => {
 
   api.extendPackage({
     dependencies: {
-      'iview': '^3.0.1'
+      'view-design': '^4.0.0'
     }
   })
 
@@ -36,7 +36,7 @@ module.exports = (api, opts, rootOptions) => {
     if (opts.import === 'partial') {
       utils.updateBabelConfig(cfg => {
         const pluginComponent = ["import", {
-            "libraryName": "iview",
+            "libraryName": "view-design",
             "libraryDirectory": "src/components"
         }]
         cfg.plugins = cfg.plugins || []

@@ -8,6 +8,7 @@
     "url": "git+ssh://git@github.com/view-design/vue-cli-plugin-viewui.git"
   },
   "keywords": [
+    "viewui",
     "iview",
     "iview-ui",
     "vue",
